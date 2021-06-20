@@ -11,4 +11,4 @@ Command: pip install pyxhook
 
 COmmand: python3 keylogger.py
 
-A file.log will be created in the desktop where all logs will be saved
+A file.log will be created in the desktop where all keystrokes will be saved
