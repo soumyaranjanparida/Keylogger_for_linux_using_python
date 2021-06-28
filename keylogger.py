@@ -1,4 +1,4 @@
-# Python code for keylogger
+# Python code for keylogger.
 # to be used in linux
 import os
 import pyxhook
